@@ -1,0 +1,119 @@
+# ============================================================
+# AI LAB SND — .gitignore
+# ============================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---- Node.js / Electron ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json.bak
+.electron/
+out/
+release/
+
+# ---- Environment / Secrets ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+credentials.json
+config.local.json
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- AI Models & Datasets ----
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.pb
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+models/pretrained/
+datasets/raw/
+datasets/processed/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# ---- Logs & Temp ----
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Build Artifacts ----
+*.exe
+*.dmg
+*.deb
+*.AppImage
+*.msi
+
+# ---- ESP32 / Hardware ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+*.hex
+*.bin.bak
+
+# ---- Firebase / Cloud ----
+.firebase/
+firebase-debug.log
+.firebaserc.local
+
+# ---- Testing ----
+coverage/
+.coverage
+.pytest_cache/
+.nyc_output/
+htmlcov/
+
+# ---- Documentation Build ----
+docs/_build/
+site/
+
+# ---- Local Development ----
+*.local
+.scratch/
+notes.local.md
